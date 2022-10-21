@@ -16,5 +16,5 @@ while(True):
    print('Batch number is:',res)
    sys.stdout.flush()
    print("\r"),
-   time.sleep(1)
+   time.sleep(15)
 
