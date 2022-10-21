@@ -2,7 +2,7 @@ import time
 import sys
 
 curr_time = time.localtime()
-curr_clock = time.strftime("%H:%M:%S", curr_time)
+curr_clock = time.strftime("%H:%M", curr_time)
 print(curr_clock)
 hour=curr_clock[:2]
 min=curr_clock[3:5]
